@@ -3,4 +3,4 @@ do
   source "$DOTFILE" 
 done 
 
-source ~/.rvm/scripts/rvm
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
